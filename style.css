@@ -155,3 +155,142 @@
       font-size: 22px;
       color: #777;
     }
+
+ /* Card selector fix */
+.main-pictures .card {
+    width: 32%;
+    max-width: 520px;
+    background-color: #111;
+    border-radius: 24px;
+    overflow: hidden;
+    color: white;
+    padding-bottom: 35px;
+  }
+  
+  /* Tablet responsive */
+  @media (max-width: 1024px) {
+    .nav {
+      height: auto;
+      padding: 25px 30px;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+  
+    .nav .links {
+      width: 100%;
+      height: auto;
+      margin-right: 0;
+      order: 3;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+  
+    .nav .links a {
+      font-size: 24px;
+      margin-left: 0;
+      padding-left: 0;
+    }
+  
+    .hero-title {
+      font-size: 12vw;
+      letter-spacing: -4px;
+      text-align: center;
+    }
+  
+    .main-links {
+      flex-wrap: wrap;
+      height: auto;
+      padding: 20px;
+    }
+  
+    .main-links a {
+      font-size: 22px;
+      padding: 10px 24px;
+    }
+  
+    .main-pictures {
+      flex-wrap: wrap;
+    }
+  
+    .main-pictures .card {
+      width: 45%;
+    }
+  }
+  
+  /* Mobile responsive */
+  @media (max-width: 600px) {
+    .nav {
+      flex-direction: column;
+      padding: 20px;
+    }
+  
+    .nav .image-logo img {
+      height: 100px;
+      width: 160px;
+    }
+  
+    .nav .links {
+      flex-direction: column;
+      gap: 12px;
+    }
+  
+    .nav .links a {
+      font-size: 22px;
+    }
+  
+    .nav .buton-get,
+    .nav .buton-get button {
+      width: 100%;
+    }
+  
+    .header-text {
+      height: auto;
+      padding: 40px 15px 20px;
+    }
+  
+    .hero-title {
+      font-size: 16vw;
+      letter-spacing: -2px;
+      line-height: 1;
+      text-align: center;
+    }
+  
+    .main-links {
+      gap: 12px;
+      margin-top: 10px;
+    }
+  
+    .main-links a {
+      font-size: 18px;
+      padding: 9px 20px;
+    }
+  
+    .main-pictures {
+      flex-direction: column;
+      padding: 30px 18px;
+    }
+  
+    .main-pictures .card {
+      width: 100%;
+      max-width: 100%;
+    }
+  
+    .card img {
+      height: 260px;
+    }
+  
+    .card button {
+      margin: 25px 0 20px 25px;
+      font-size: 16px;
+    }
+  
+    .card h2 {
+      margin: 0 25px;
+      font-size: 28px;
+    }
+  
+    .card p {
+      margin: 25px 25px 0;
+      font-size: 18px;
+    }
+  }
